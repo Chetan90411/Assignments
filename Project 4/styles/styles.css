@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    padding: 25px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+  
+nav div ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 800;
+    flex-wrap: wrap;
+}
+
+nav div ul li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button{
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(89,85,179);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+}
+
+.hero-left{
+    padding-left: 2vw;
+    width: 44vw;
+    height: 105;
+}
+
+.hero-right{
+    width: 66vw;
+    height: 105vh;
+}
+
+h1{
+    padding-left: 3vw;
+    padding-bottom: 2vw;
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(68,54,103);
+    line-height: 80px;
+
+}
+
+h1 span{
+    color: rgb(117,114,192);
+}
+
+p{
+    padding-right: 0;
+    padding-bottom: 4vw;
+    padding-left: 3.5vw;
+}
+.btn{
+    position: relative;
+    left: 40px;
+}
